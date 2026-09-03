@@ -21,8 +21,6 @@ public:
                 }
             }
         }
-
-        // If there is no operator, it is just a number
         if (ans.empty())
             ans.push_back(stoi(s));
 
